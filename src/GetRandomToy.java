@@ -12,9 +12,9 @@ public class GetRandomToy {
         System.out.println(lines);
         System.out.println("создан массив");
         int sumOfWeight = 0;
-        for (int i = 0; i < lines.size(); i++) {
-            sumOfWeight += Integer.parseInt(lines.spliterator());
-        }
+
+        sumOfWeight += Integer.parseInt(lines.iterator());
+
 
 
 
