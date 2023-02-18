@@ -9,7 +9,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class GetRandomToy {
     public static void getToy() {
 
-        DeleteEmptyCateroriesToys.checkEmptyCaterories();
+        DeleteEmptyCategoriesToys.checkEmptyCaterories();
         ArrayList<String> lines = null;
         try {
             lines = new ArrayList<>(Files.readAllLines(Paths.get("ToysList.txt")));

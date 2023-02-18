@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
 
-public class DeleteEmptyCateroriesToys {
+public class DeleteEmptyCategoriesToys {
     public static void checkEmptyCaterories(){
 
         int deleteIndex = -1;
@@ -40,8 +40,6 @@ public class DeleteEmptyCateroriesToys {
             lines.set(newId - 1, s.toString());
             newId += 1;
         }
-
-
         try {
             Files.write(path, lines, StandardOpenOption.TRUNCATE_EXISTING);
         } catch (IOException e) {
