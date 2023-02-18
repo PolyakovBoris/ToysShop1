@@ -48,7 +48,7 @@ public class PutToys {
      */
     public static void put(int id){
 
-        DeleteEmptyCateroriesToys.checkEmptyCaterories();
+        DeleteEmptyCategoriesToys.checkEmptyCaterories();
         Path path = Paths.get("ToysList.txt");
         List lines = null;
         try {
