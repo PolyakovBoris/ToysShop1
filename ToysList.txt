@@ -1,4 +1,9 @@
-
-1 5 constructor
-2 3 doll
-3 4 train
+1 1 spider
+2 3 constructor
+3 3 doll
+4 3 train
+5 2 car
+6 2 spider
+7 1 alien
+8 3 boat
+9 4 stickers
